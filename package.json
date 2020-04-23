@@ -1,0 +1,35 @@
+{
+    "name": "react-native-netinfo-bar",
+    "version": "0.0.1",
+    "description": "NetInfo bar implementation for react native",
+    "main": "index.js",
+    "files": [
+        "src",
+        "index.js"
+    ],
+    "scripts": {
+        "build": "npm pack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BilalArxd/react-native-netinfo-bar.git"
+    },
+    "author": "BilalArshad",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/BilalArxd/react-native-netinfo-bar/issues"
+    },
+    "homepage": "https://github.com/BilalArxd/react-native-netinfo-bar#readme",
+    "devDependencies": {
+        "metro-react-native-babel-preset": "^0.59.0",
+        "@react-native-community/netinfo": "5.7.1"
+    },
+    "dependencies": {
+        "lodash": "^4.17.11",
+        "prop-types": "^15.6.2"
+    },
+    "peerDependencies": {
+        "react": "*",
+        "react-native": "*"
+    }
+}
