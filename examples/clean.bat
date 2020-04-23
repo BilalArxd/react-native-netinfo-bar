@@ -1,0 +1,1 @@
+rimraf android/build && rimraf android/app/build && adb uninstall com.examples
